@@ -1,0 +1,15 @@
+.row{
+    display: flex;
+}
+
+.col-xs-12{
+    border: thin dotted;
+}
+
+.col-xs-12:first-child{
+    order: 12;
+}
+
+.col-xs-12:last-child{
+    order: 1;
+}
